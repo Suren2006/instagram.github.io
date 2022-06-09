@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Instagram </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+		<link rel="icon" href="img/favikon.png">
+	</head>
+	<body>
+		<header>
+			<div class="header flex">
+				<div class="camera">
+					<img src="img/camera.png">
+				</div>
+				<div class="logo flex">
+					<img src="img/logo.png" >
+				</div>
+				<div class="input flex">	
+					<input type="text">
+				</div>
+				<div class="icons flex">
+					<a href="#">
+						<img src="img/home.png" class="icon">
+					</a>
+					<a href="messenger.html" class="messenger-icon2">
+						<img src="img/message.png" class="icon">
+					</a>	
+					<a href="explore.html" class="search">
+						<img src="img/search2.png" class="icon">
+					</a>
+					<a href="#">
+						<img src="img/create.png" class="icon">
+					</a>	
+					<a href="explore.html" class="explore">
+						<img src="img/explore.png" class="icon">
+					</a>
+					<a href="#">
+						<img src="img/likes.png" class="icon">
+					</a>
+					<a href="myprofile.html">
+						<img src="img/profile.png" class="icon">
+					</a>
+				</div>
+				<a href="messenger.html" class="messenger-icon">
+						<img src="img/message.png" class="icon">
+				</a>
+			</div>
+		</header>
+		<div class="border"></div>
+		<br>
+		<div class="main flex">
+			<div class="main-div">
+				<div class="story flex">
+					<div class="flex firststorys"  id="function">
+						<div class="profiletext">
+								<img src="img/profile1.png" class="profilepng">
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<p class="name font wieght400"> your story</p>
+						</div>
+						<div class="profiletext">
+								<img src="img/profile2.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<a href="userprofile.html" class="to-user">
+								<p class="name font wieght400"> terrylucas</p>
+							</a>
+						</div>
+						<div class="profiletext">
+								<img src="img/profile3.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<p class="name font wieght400"> lauramatt...</p>
+						</div>
+						<div class="profiletext">
+								<img src="img/profile4.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<p class="name font wieght400"> harryprescott</p>
+						</div>
+						<div class="profiletext">
+								<img src="img/profile5.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">
+							<p class="name font wieght400"> ednamanz</p>
+						</div>
+						<div class="profiletext">
+								<img src="img/profile6.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<p class="name font wieght400"> christinaste...</p>
+						</div>
+						<div class="profiletext">
+								<img src="img/profile7.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<p class="name font wieght400"> johnschmit</p>
+						</div>
+						<div class="profiletext hidden-storys">
+								<img src="img/profile7.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<p class="name font wieght400"> johnschmit</p>
+						</div>
+						<div class="profiletext hidden-storys">
+								<img src="img/profile6.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">			
+							<p class="name font wieght400"> christinaste...</p>
+						</div>
+						<div class="profiletext hidden-storys">
+								<img src="img/profile5.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">		
+							<p class="name font wieght400"> ednamanz</p>
+						</div>
+						<div class="profiletext hidden-storys">
+								<img src="img/profile4.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">
+							<p class="name font wieght400"> harryprescott</p>
+						</div>
+						<div class="profiletext hidden-storys">
+								<img src="img/profile3.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<p class="name font wieght400"> lauramatt...</p>
+						</div>
+						<div class="profiletext hidden-storys">
+								<img src="img/profile2.png" class="profilepng"> 
+								<img src="img/ellipse1.png" class="ellipsepng">	
+							<a href="myprofile.html" class="to-user">
+								<p class="name font wieght400"> terrylucas</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="frame flex">
+					<div class="frame-div flex">
+						<div class="frame-name flex">
+							<img src="img/suggestions1.png">
+							<img src="img/ellipse2.png">
+						</div>
+						<div class="framename font weight600">
+							<a href="userprofile.html" class="to-user">
+								<p>terrylucas</p>
+							</a>
+						</div>
+					</div>
+					<img src="img/options.png">
+				</div>
+				<div class="postpng">
+					<img src="img/1.png" ondblclick="dbllike()">
+					<img src="img/biglike.png" id="dbllike">
+				</div>
+				<div class="footer2">
+					<div class="footer-div flex">
+						<div class="footericons">
+							<img src="img/like.png" onclick="likeFunction()" id="likewhite">
+							<img src="img/likered.png" onclick="dislikeFunction()" id="likered" style="display: none;">
+							<img src="img/comment.png">
+							<img src="img/direct.png">
+						</div>
+						<img src="img/save.png" onclick="savefunction()" id="save">
+						<img src="img/saveblack.png" onclick="unsavefunction()" id="unsave">
+					</div>
+					<div class="information">
+						<p id="like-number"> 1,069 likes </p>
+						<div class="flex">
+							<p class="terrylucas font weight600">terrylucas</p>
+							<p class="imperdiet font weight400">Imperdiet in sit rhoncus, eleifend tellus augue lectus potenti pellentesque</p>
+							<p class="more font weight400">...more</p>
+							<p class="view font weight400"> View all 100 comments</p>
+						</div>
+						<p class="ago font weight400">1 HOUR AGO</p>
+						<div class="comments flex">
+							<div class="comments-emoji flex">
+								<img src="img/emoji.png">
+								<p class="add font weight400">Add a comment...</p>
+							</div>
+							<p class="post font weight600">
+								Post
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="profile">
+				<div class="profile-div flex">
+					<div class="profilename flex">
+						<img src="img/profile1.png">
+						<div>
+							<p class="firstname font weight600"> shirleyromero </p>
+							<p class="secondname font weight400"> Shirley Romero </p>
+						</div>
+					</div>
+					<a href="#" class="font">Switch</a>
+				</div>
+				<br>
+				<div class="suggestions">
+					<div class="seeall flex">
+						<p class="foryou font weight600"> Suggestions For You</p>
+						<p class="see font weight600">See All</p>
+					</div>
+				</div>
+				<br>
+				<div class="follow flex">
+					<div class="follow-div flex">
+						<img src="img/suggestions1.png">
+						<div>
+							<a href="userprofile.html" class="to-user">
+								<p class="followname font weight400">terylucas</p>
+							</a>
+							<p class="followed font weight400">Followed by terylucas + 2 more</p>
+						</div>
+					</div>
+					<a href="#">Follow</a>
+				</div>
+				<div class="follow flex">
+					<div class="follow-div flex">
+						<img src="img/suggestions2.png">
+						<div>
+							<p class="followname font weight400">lauramatthews</p>
+							<p class="followed font weight400">Followed by lauramatthews + 2 more</p>
+						</div>
+					</div>
+					<a href="#">Follow</a>
+				</div>
+				<div class="follow flex">
+					<div class="follow-div flex">
+						<img src="img/suggestions3.png">
+						<div>
+							<p class="followname font weight400">harryprescott</p>
+							<p class="followed font weight400">Followed by harryprescott + 2 more</p>
+						</div>
+					</div>
+					<a href="#">Follow</a>
+				</div>
+				<div class="follow flex">
+					<div class="follow-div flex">
+						<img src="img/suggestions4.png">
+						<div>
+							<p class="followname font weight400">ednamanz</p>
+							<p class="followed font weight400">Followed by ednamanz + 2 more</p>
+						</div>
+					</div>
+					<a href="#">Follow</a>
+				</div>
+				<div class="follow flex">
+					<div class="follow-div flex">
+						<img src="img/suggestions5.png">
+						<div>
+							<p class="followname font weight400">christinasterling</p>
+							<p class="followed font weight400">Followed by christinasterling + 2 more</p>
+						</div>
+					</div>
+					<a href="#">Follow</a>
+				</div>
+				<div class="footer flex">
+					<p class="font weight400"> About</p>
+					<p class="font weight400"> Press</p>
+					<p class="font weight400"> API</p>
+					<p class="font weight400"> Jobs</p>
+					<p class="font weight400"> Privacy</p>
+					<p class="font weight400"> Terms</p>
+					<p class="font weight400"> Location</p>
+					<p class="font weight400"> Top Accounts</p>
+					<p class="font weight400"> Hashtags</p>
+					<p class="font weight400"> Language</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			function myFunction() {
+			  document.getElementById("function").style.display = "none";
+			  document.getElementById("secondfunction").style.display = "flex";
+			}
+
+			function yourFunction() {
+			  document.getElementById("secondfunction").style.display = "none";
+			  document.getElementById("function").style.display = "flex";
+			}
+
+
+
+			function dbllike() {
+				document.getElementById("dbllike").style.display = "flex";
+				document.getElementById("likewhite").style.display = "none";
+				document.getElementById("likered").style.display = "";
+				document.getElementById("like-number").innerHTML = "1,070 likes"
+				const myTimeout = setTimeout(dbllikes, 500);
+			}
+
+			function dbllikes() {
+				document.getElementById("dbllike").style.display = "none";
+			}
+
+			function likeFunction() {
+				document.getElementById("likewhite").style.display = "none";
+				document.getElementById("likered").style.display = "";
+				document.getElementById("like-number").innerHTML = "1,070 likes"
+			}
+
+			function dislikeFunction() {
+				document.getElementById("likered").style.display = "none";
+				document.getElementById("likewhite").style.display = "";
+				document.getElementById("like-number").innerHTML = "1,069 likes"
+			}
+
+			function savefunction() {
+				document.getElementById("save").style.display = "none";
+				document.getElementById("unsave").style.display = "block";
+			}
+
+			function unsavefunction() {
+				document.getElementById("unsave").style.display = "none";
+				document.getElementById("save").style.display = "";
+			}
+		</script>
+	</body>
+</html>

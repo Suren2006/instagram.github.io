@@ -1,0 +1,119 @@
+@media (max-width: 992px) {
+	.camera {
+		display: block;
+		width: 22px;
+		height: 22px;
+		margin-left: 20px;
+	}
+
+	.settings {
+		display: block;
+		margin-left: 20px;
+
+	}
+
+	.addfriend-icon {
+		display: block;
+		width: 50px;
+	}
+
+	.addfriend-icon>img {
+		width: 100%;
+	}
+
+	.arrow2 {
+		display: block;
+		margin-left: 20px;
+		transform: rotate(90deg);
+	}
+
+	.profile-first-name {
+		display: block;
+		margin: auto;
+	}
+	
+	.second-settings {
+		display: none;
+	}
+	
+	.input {
+		display: none;	
+	}
+
+	.messenger-logo {
+		display: none;
+	}
+
+	.explore-input {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+	.explore-input>input {
+		width: 100%;
+	}
+
+	.chats {
+		display: block;
+		margin: auto;
+	}
+
+	.right, .left-header {
+		display: none;
+	}
+
+	.messenger-icons {
+		display: none;
+	}
+
+	.left {
+		border: none;
+	}
+
+	.icons {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: white;
+		height: 50px;
+		border-top: 1px solid #DBDBDB;
+	}
+
+	.search {
+		display: block;
+	}
+
+	.explore {
+		display: none;
+	}
+
+	.messenger-icon2 {
+		display: none;
+	}
+
+	.messenger-icon {
+		display: block;/*
+		margin-right: -20px;*/
+	}
+
+	.header {
+		max-width: 100%;
+	}
+
+	.main-div {
+		margin: 0 auto
+	}
+
+	.profile {
+		display: none;
+	}
+
+	.logo {
+		margin: 0 auto
+	}
+
+	.story {
+		margin-bottom: 20px
+	}
+}
